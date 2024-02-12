@@ -24,6 +24,7 @@
     <ProjectGuid>{d18504cb-cabe-4297-937f-bb6ebbc20723}</ProjectGuid>
     <RootNamespace>NauralNetworkBackProp</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>NeuralNetworkBackProp</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -127,7 +128,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="NauralNetworkBackProp.cpp" />
+    <ClCompile Include="NeuralNetworkBackProp.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BackProp.h" />

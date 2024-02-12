@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="NauralNetworkBackProp.cpp">
+    <ClCompile Include="NeuralNetworkBackProp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
