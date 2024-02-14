@@ -128,6 +128,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BackProp.cpp" />
     <ClCompile Include="NeuralNetworkBackProp.cpp" />
   </ItemGroup>
   <ItemGroup>

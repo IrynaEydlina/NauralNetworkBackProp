@@ -18,6 +18,9 @@
     <ClCompile Include="NeuralNetworkBackProp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="BackProp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Training.h">
