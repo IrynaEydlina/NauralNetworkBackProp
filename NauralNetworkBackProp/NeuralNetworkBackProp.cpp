@@ -1,17 +1,24 @@
-#include <iostream>
-
+#include "Training.h"
 int main()
 {
-    std::cout << "Hello World!\n";
+	setlocale(LC_ALL, "en-US");
+	Training trainer;
+	trainer.start();
+	/*unsigned int start_time = clock();
+	long dst[1000];
+	long i;
+	#pragma omp parallel num_threads(3)
+	{
+	#pragma omp for
+		for (i = 0; i < 2000000000; i++)
+		{
+			dst[i%1000] = sqrt(i);
+			if (i == 2000000000 - 1)
+				cout << "test" << endl;
+		}
+	}
+	unsigned int end_time = clock();
+	unsigned int search_time = end_time - start_time;
+	cout << search_time << endl;*/
+	return 0;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
