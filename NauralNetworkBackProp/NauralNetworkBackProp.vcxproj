@@ -130,6 +130,7 @@
   <ItemGroup>
     <ClCompile Include="BackProp.cpp" />
     <ClCompile Include="NeuralNetworkBackProp.cpp" />
+    <ClCompile Include="Training.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BackProp.h" />
